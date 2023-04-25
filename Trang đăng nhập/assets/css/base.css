@@ -1,0 +1,46 @@
+:root {
+    --primary-green: #2ca34d;
+    --primary-blue: #0065ff;
+    --secondary-dark-green1: #15753c;
+    --secondary-light-green1: #83bf45;
+    --secondary-light-green2: #8fc349;
+    --system-orange: #feb744;
+    --system-green: #08cb66;
+    --system-pink: #ff4a4a;
+
+    --white-color: #fff;
+    --neutrals1: #1E293B;
+    --neutrals2: #1b211c;
+    --neutrals3: #5A625B;
+    --neutrals4: #A2AAA3;
+    --neutrals5: #C7CFC8;
+    --neutrals6: #DADBD2;
+    --neutrals7: #E7EFE8;
+    --neutrals8: #F1F9F2;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    line-height: 2.4rem;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
